@@ -8,7 +8,8 @@ vim.opt.relativenumber = true
 
 
 vim.opt.scrolloff = 10
-
+vim.opt.sidescrolloff = 20
+vim.o.wrap = false
 
 vim.lsp.config("laravel_lsp", {
     cmd = { "laravel-lsp" },
