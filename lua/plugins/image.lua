@@ -2,7 +2,6 @@ return {
     "3rd/image.nvim",
     build = false,
     opts = {
-        processor = "magick_cli",
         backend = "kitty", -- or "ueberzug" or "sixel"
         processor = "magick_rock", -- or "magick_cli"
         integrations = {
