@@ -1,6 +1,0 @@
-{
-  "coc.nvim": { "branch": "release", "commit": "c39eba4cf90254dd9e3ce54f617f07d1853d5da5" },
-  "gitsigns.nvim": { "branch": "main", "commit": "8d79f2410c76e62b92e51c28c82e28c1c5a3daeb" },
-  "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
-  "nvim-treesitter": { "branch": "main", "commit": "f603a2f4da48728f80257fb5fbb90145fd1dc173" }
-}
