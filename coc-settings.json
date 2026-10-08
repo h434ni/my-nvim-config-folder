@@ -1,4 +1,0 @@
-{
-	"python.formatting.provider": "ruff",
-	"python.formatting.ruffPath": "ruff"
-}
