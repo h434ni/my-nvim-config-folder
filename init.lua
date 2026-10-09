@@ -1,6 +1,7 @@
 require("config.lazy")
 
-vim.cmd.colorscheme("koehler")
+vim.cmd.colorscheme("tokyonight")
+vim.opt.cursorline = true
 
 
 vim.opt.number = true
