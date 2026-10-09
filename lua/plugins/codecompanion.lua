@@ -1,6 +1,14 @@
 return {
   "olimorris/codecompanion.nvim",
   version = "^19.0.0",
+  dependencies = {
+    "nvim-lua/plenary.nvim",
+    "nvim-treesitter/nvim-treesitter",
+    { "j-hui/fidget.nvim", opts = {} },
+  },
+  init = function()
+    require("codecompanion_extensions.fidget").setup()
+  end,
   opts = {
     adapters = {
       acp = {
@@ -22,12 +30,8 @@ return {
     },
     interactions = {
       chat = {
-        adapter = "agy", 
+        adapter = "agy",
       },
-    },	
-  },
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "nvim-treesitter/nvim-treesitter",
+    },
   },
 }
