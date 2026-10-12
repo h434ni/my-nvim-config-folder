@@ -3,6 +3,7 @@ require("config.lazy")
 vim.cmd.colorscheme("tokyonight")
 vim.opt.cursorline = true
 
+vim.opt.cmdheight = 0
 
 vim.opt.number = true
 vim.opt.relativenumber = true
