@@ -5,6 +5,8 @@ vim.opt.cursorline = true
 
 vim.opt.cmdheight = 0
 
+vim.opt.colorcolumn = "80,120"
+
 vim.opt.number = true
 vim.opt.relativenumber = true
 
